@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(214, 225, 255);
+  align-items: center;
+} 
+
+main {
+  padding: 20px;
+  background-color: hwb(240 100% 0%);
+}
+
+#header-esquerda p {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.texto-pequeno {
+  color: red;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#header-direita{
+  display: flex;
+  gap: 20px;
+}
+
+#header-direita p{
+ color: black;
+ font-weight: bold;
+}
+
+#destaque {
+  background-color: rgb(214, 225, 255);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between
+}
+
+#destaque-txt h1{
+  color: black;
+  font-size: 80px;
+}
+
+#destaque-txt p{
+  font-size: 20px;
+}
+
+#destaque-img img {
+  width: 400px;
+}
+
+#galeria-txt {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#galeria-txt h2{
+  color: black;
+  font-size: 48px;
+}
+
+.card {
+  background-color: rgb(214, 225, 255);
+  width: 25%;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card p{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-txt {
+  padding: 20px;
+}
+
+#galeria-cards{
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer {
+    background-color: rgb(214, 225, 255);
+    padding: 20px;
+    text-align: center;
+}
